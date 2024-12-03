@@ -35,6 +35,7 @@ Rules should follow rock, paper scissors rules[^1] (rock > scissors, scissors > 
 5. Create a variable that counts rounds (from 5 down) per round played. Compare the score once the counter reaches 0 and announce a winner.
 
 ### Links and Reference
+[Rock Paper Scissors project - The Odin Project](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
 
 # Footnotes
 
