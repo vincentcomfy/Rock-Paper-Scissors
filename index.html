@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>This game is designed to be played in the console.</p>
+    <div class="header">
+        <div id="title">Rock, Paper, Scissors!</div>
+        <p>Please select one of the 3 buttons below to play.</p>
+    </div>
+
+    <div class="main">
+        <div class="buttons">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+        <button id="reset" class="reset-button">Reset Game</button>
+    </div>
+
+    <div class="game-info">
+        <p id="round-info">Round: 0</p>
+        <p id="score-info">Player: 0 - Computer: 0</p>
+        <p id="message-info">Click a button to start!</p>
+    </div>
+
     <script src="./scripts.js"></script>
 </body>
 </html>
